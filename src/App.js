@@ -31,11 +31,16 @@ function App() {
           />
         </div>
         <div className="flex gap-5">
-          <img src="/image/ic-user.png" className="w-7 h-7 self-center" />
+          <img
+            src="/image/ic-user.png"
+            alt="icUser"
+            className="w-7 h-7 self-center"
+          />
           <div className="relative w-9 h-9">
             <img
               src="/image/ic-cart.png"
               className="w-full h-full self-center"
+              alt="icCart"
             />
             <div className="absolute -bottom-2 -left-1 text-xs bg-red-500 rounded-full w-4 h-4 text-center text-white">
               4
@@ -171,11 +176,11 @@ function App() {
                 value="bintangLima"
               />
               <div className="flex">
-                <img src="/image/ic-star-yellow.png" />
-                <img src="/image/ic-star-yellow.png" />
-                <img src="/image/ic-star-yellow.png" />
-                <img src="/image/ic-star-yellow.png" />
-                <img src="/image/ic-star-yellow.png" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
               </div>
             </div>
             <div className="text-sm pb-2 flex">
@@ -185,11 +190,11 @@ function App() {
                 value="bintangEmpat"
               />
               <div className="flex">
-                <img src="/image/ic-star-yellow.png" />
-                <img src="/image/ic-star-yellow.png" />
-                <img src="/image/ic-star-yellow.png" />
-                <img src="/image/ic-star-yellow.png" />
-                <img src="/image/ic-star.png" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
+                <img src="/image/ic-star.png" alt="star" />
               </div>
             </div>
             <div className="text-sm pb-2 flex">
@@ -199,11 +204,11 @@ function App() {
                 value="bintangTiga"
               />
               <div className="flex">
-                <img src="/image/ic-star-yellow.png" />
-                <img src="/image/ic-star-yellow.png" />
-                <img src="/image/ic-star-yellow.png" />
-                <img src="/image/ic-star.png" />
-                <img src="/image/ic-star.png" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
+                <img src="/image/ic-star.png" alt="star" />
+                <img src="/image/ic-star.png" alt="starYellow" />
               </div>
             </div>
             <div className="text-sm pb-2 flex">
@@ -213,11 +218,11 @@ function App() {
                 value="bintangDua"
               />
               <div className="flex">
-                <img src="/image/ic-star-yellow.png" />
-                <img src="/image/ic-star-yellow.png" />
-                <img src="/image/ic-star.png" />
-                <img src="/image/ic-star.png" />
-                <img src="/image/ic-star.png" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
+                <img src="/image/ic-star.png" alt="star" />
+                <img src="/image/ic-star.png" alt="starYellow" />
+                <img src="/image/ic-star.png" alt="starYellow" />
               </div>
             </div>
             <div className="text-sm pb-2 flex">
@@ -227,11 +232,11 @@ function App() {
                 value="bintangSatu"
               />
               <div className="flex">
-                <img src="/image/ic-star-yellow.png" />
-                <img src="/image/ic-star.png" />
-                <img src="/image/ic-star.png" />
-                <img src="/image/ic-star.png" />
-                <img src="/image/ic-star.png" />
+                <img src="/image/ic-star-yellow.png" alt="starYellow" />
+                <img src="/image/ic-star.png" alt="star" />
+                <img src="/image/ic-star.png" alt="star" />
+                <img src="/image/ic-star.png" alt="star" />
+                <img src="/image/ic-star.png" alt="star" />
               </div>
             </div>
           </div>
@@ -273,7 +278,7 @@ function App() {
         <div className="">
           <div className="flex flex-wrap gap-10">
             <div className="border-2 border-gray-300 rounded-lg p-4">
-              <img src="/image/bolu_susun.png" className="" />
+              <img src="/image/bolu_susun.png" alt="FoodItem" className="" />
               <h3 className="font-semibold mt-2">Bolu Susun</h3>
               <p className="text-slate-600 text-xs">
                 Disusun dengan penuh kenangan
@@ -294,7 +299,7 @@ function App() {
             </div>
 
             <div className="border-2 border-gray-300 rounded-lg p-4">
-              <img src="/image/mie.png" className="" />
+              <img src="/image/mie.png" alt="FoodItem" className="" />
               <h3 className="font-semibold mt-2">Mie Aceh</h3>
               <p className="text-slate-600 text-xs">
                 Rasanya menusuk jiwa dan raga
@@ -315,7 +320,7 @@ function App() {
             </div>
 
             <div className="border-2 border-gray-300 rounded-lg p-4">
-              <img src="/image/bolu_lapis.png" className="" />
+              <img src="/image/bolu_lapis.png" alt="FoodItem" className="" />
               <h3 className="font-semibold mt-2">Bolu Lapis</h3>
               <p className="text-slate-600 text-xs">
                 Lapisan legit di setiap sentuhan
@@ -333,7 +338,7 @@ function App() {
             </div>
 
             <div className="border-2 border-gray-300 rounded-lg p-4">
-              <img src="/image/donat.png" className="" />
+              <img src="/image/donat.png" alt="FoodItem" className="" />
               <h3 className="font-semibold mt-2">Donat</h3>
               <p className="text-slate-600 text-xs">Rasa donat</p>
               <div className="flex justify-between mt-1">
@@ -349,7 +354,7 @@ function App() {
             </div>
 
             <div className="border-2 border-gray-300 rounded-lg p-4">
-              <img src="/image/pizza.png" className="" />
+              <img src="/image/pizza.png" alt="FoodItem" className="" />
               <h3 className="font-semibold mt-2">Pizza Huut</h3>
               <p className="text-slate-600 text-xs">Potongan penuh nikmat</p>
               <div className="flex justify-between mt-1">
@@ -368,7 +373,7 @@ function App() {
             </div>
 
             <div className="border-2 border-gray-300 rounded-lg p-4">
-              <img src="/image/telur.png" className="" />
+              <img src="/image/telur.png" alt="FoodItem" className="" />
               <h3 className="font-semibold mt-2">Mata Sapi</h3>
               <p className="text-slate-600 text-xs">Penuh mata mata</p>
               <div className="flex justify-between mt-1">
