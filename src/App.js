@@ -6,7 +6,7 @@ function App() {
     <div className="container mx-auto">
       <div className="header flex justify-between border-b border-slate-300 py-2 text-sm">
         <div className="flex gap-8">
-          <a href="#" className="text-lime-300">
+          <a href="facebook.com" className="text-lime-300">
             Chat with us
           </a>
           <p>+62 822 909 187</p>
@@ -46,49 +46,49 @@ function App() {
 
       <div className="siteMenu bg-slate-50 py-4 flex">
         <div className="mr-8">
-          <a href="#" className="mr-2 font-bold">
+          <a href="facebook.com" className="mr-2 font-bold">
             Bakery
           </a>
           <i class="fa fa-angle-down"></i>
         </div>
         <div className="mr-8">
-          <a href="#" className="mr-2 font-bold">
+          <a href="facebook.com" className="mr-2 font-bold">
             Fruit and vegetables
           </a>
           <i class="fa fa-angle-down"></i>
         </div>
         <div className="mr-8">
-          <a href="#" className="mr-2 font-bold">
+          <a href="facebook.com" className="mr-2 font-bold">
             Meat and fish
           </a>
           <i class="fa fa-angle-down"></i>
         </div>
         <div className="mr-8">
-          <a href="#" className="mr-2 font-bold">
+          <a href="facebook.com" className="mr-2 font-bold">
             Drinks
           </a>
           <i class="fa fa-angle-down"></i>
         </div>
         <div className="mr-8">
-          <a href="#" className="mr-2 font-bold">
+          <a href="facebook.com" className="mr-2 font-bold">
             Kitchen
           </a>
           <i class="fa fa-angle-down"></i>
         </div>
         <div className="mr-8">
-          <a href="#" className="mr-2 font-bold">
+          <a href="facebook.com" className="mr-2 font-bold">
             Special nutrition
           </a>
           <i class="fa fa-angle-down"></i>
         </div>
         <div className="mr-8">
-          <a href="#" className="mr-2 font-bold">
+          <a href="facebook.com" className="mr-2 font-bold">
             Baby
           </a>
           <i class="fa fa-angle-down"></i>
         </div>
         <div className="mr-8">
-          <a href="#" className="mr-2 font-bold">
+          <a href="facebook.com" className="mr-2 font-bold">
             Pharmacy
           </a>
           <i class="fa fa-angle-down"></i>
